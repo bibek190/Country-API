@@ -1,0 +1,32 @@
+.root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(238, 220, 220, 0.6);
+}
+h1 {
+  width: 100%;
+  margin: 50px auto;
+  text-align: center;
+  background: black;
+  color: white;
+}
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  width: 250px;
+  justify-content: flex-start;
+  box-shadow: 0 0 5px 1px rgb(0, 0, 0, 0.2);
+}
+.card-img-top {
+  height: 150px;
+}
+ul span {
+  font-weight: 600;
+}
